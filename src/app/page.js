@@ -29,7 +29,8 @@ import {
 } from '../Components';
 
 const presaleAddress =
-  '0x040FA255ceA4558fBfA25b18C5CE57AB19570392'; // Replace with your presale contract address
+  '0x7E821545B5969A9222dCd85A2fEDb7d0646dE787'; // Replace with your presale contract address
+
 const Home = () => {
   const [account, setAccount] = useState(null);
   const [presaleContract, setPresaleContract] =

@@ -66,7 +66,7 @@ const Hero = ({ buyTokens, address, connectWallet }) => {
                 />
               </div>
               <Generating
-                className="z-[999] w-[19rem] absolute left-4 right-4 -bottom-[18rem] md:left-1/2 md:right-auto md:-bottom-[8rem] md:w-[32rem] md:-translate-x-1/2"
+                className="z-[999] w-[19rem] absolute left-4 right-4 -bottom-[22rem] md:left-1/2 md:right-auto md:-bottom-[26rem] md:w-[32rem] md:-translate-x-1/2"
                 buyTokens={buyTokens}
                 address={address}
                 connectWallet={connectWallet}
