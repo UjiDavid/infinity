@@ -28,9 +28,9 @@ const Generating = ({
       <h4 className="text-bold text-lg h4 text-center">
         Sale Ends In
       </h4>
-      <div className="bg-conic-gradient w-full rounded-[1.7rem] p-[1.5px]">
+      <div className="bg-conic-gradient my-3 rounded-[1.7rem] p-[1.5px]">
         {address && address.length > 0 ? (
-          <div className="bg-n-8 rounded-[1.7rem] p-4 w-full flex gap-3 md:gap-5 items-center justify-center">
+          <div className="bg-n-8 rounded-[1.7rem] p-4 flex gap-3 md:gap-5 items-center justify-center">
             Connected: {address.substring(0, 6)}...
             {address.substring(38)}
           </div>
@@ -45,19 +45,19 @@ const Generating = ({
       </div>
       <Timer />
       <div className="flex flex-row mt-3">
-        <div className="bg-conic-gradient w-full rounded-[1.7rem] p-[1.5px]">
+        <div className="bg-conic-gradient rounded-[1.7rem] p-[1.5px]">
           <input
             type="number"
             required
             placeholder="1"
             id="nToken"
-            className="bg-n-8 rounded-[1.7rem] p-4 w-full flex gap-3 md:gap-5 items-center justify-center"
+            className="bg-n-8 rounded-[1.7rem] p-4 flex gap-3 md:gap-5 items-center justify-center"
             onChange={(e) => setNToken(e.target.value)}
             name="token"
           />
         </div>
       </div>
-      <div className="flex flex-row bg-conic-gradient rounded-[1.7rem] p-[1.5px]">
+      <div className="flex flex-row bg-conic-gradient my-4 rounded-[1.7rem] p-[1.5px]">
         {address && address.length > 0 ? (
           <div
             onClick={() => buyTokens(nToken)}
@@ -66,7 +66,7 @@ const Generating = ({
             Buy Token
           </div>
         ) : (
-          <div className="bg-n-8 rounded-[1.7rem] p-4 w-full flex gap-3 md:gap-5 items-center justify-center">
+          <div className="bg-n-8 rounded-[1.7rem] p-4 w-full flex gap-3 md:gap-5 items-center justify-center cursor-not-allowed">
             Connect Wallet First
           </div>
         )}

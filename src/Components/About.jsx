@@ -1,11 +1,11 @@
-import Button from "./Button";
-import Heading from "./Heading";
-import Section from "./Section";
+import Button from './Button';
+import Heading from './Heading';
+import Section from './Section';
 
 const About = () => {
   return (
     <Section id="about">
-      <div className="pt-[20rem] md:pt-10 container relative z-2 flex flex-col items-center justify-center">
+      <div className="mt-[20rem] md:pt-10 container relative z-2 flex flex-col items-center justify-center">
         <Heading
           className="md:max-w-md lg:max-w-2xl"
           title="Bloom Beyond Limits: Introducing Infinity Petal (INP)"
